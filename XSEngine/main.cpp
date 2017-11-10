@@ -29,8 +29,8 @@ int main()
 		game.goFullscreen();
 		
 		input.handle();
-		scenes.draw(bmp);
 		scenes.update();
+		scenes.draw(bmp);
 	}
 
 	allegro_exit();
